@@ -8,11 +8,21 @@
 
 `cd` into project folder
 
+`npm install`
+
 `git remote rm origin`
 
 Update remote and push
 
 You will then be able to make any changes to the new project and push any changes to the new repo
+
+---
+
+### To run the code run the following
+
+`ng serve --port [port-number]`
+
+Navigate to `localhost:[port-number]`
 
 ---
 
