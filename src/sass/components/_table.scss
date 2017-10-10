@@ -1,0 +1,38 @@
+mat-table, th, td {
+  border-collapse: collapse;
+}
+
+thead {
+  color: #B2BBBE;
+  font-weight: 100;
+  
+}
+
+tr {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+tr:hover td {
+  background: #EEEEEE;
+}
+
+tbody {
+  font-size: 16px;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+  width: 95px;
+}
+
+td:nth-child(1) {
+  width: 430px;
+  max-width: 430px;
+  word-wrap: break-word;
+}
+
+td mat-icon {
+  text-align: center;
+}
+

@@ -1,0 +1,34 @@
+@import 'themes/theme';
+
+@import 'components/chips';
+@import 'components/alerts';
+@import 'components/material';
+@import 'components/table';
+@import 'components/lists';
+
+@import 'forms/forms';
+
+html, body {
+  // margin: 0;
+  // width: 100%;
+  // height: 100%;
+  // line-height: normal;
+  // background: rgb(141, 141, 141);
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

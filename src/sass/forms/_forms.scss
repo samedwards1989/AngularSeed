@@ -1,0 +1,15 @@
+.form-fields {
+  width: 636px;
+}
+
+mat-checkbox {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+button[type=submit]:enabled {
+  background: #18a800;
+  color: #fff;
+}
