@@ -14,11 +14,15 @@ Update remote and push
 
 You will then be able to make any changes to the new project and push any changes to the new repo
 
+---
+
 ### To update the default app name change the following files
 
 1. angular-cli.json
 2. package.json
 3. index.html
+
+---
 
 ### To change the default theme, change the following files
 
